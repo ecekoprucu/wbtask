@@ -1,0 +1,13 @@
+.dateWrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    padding: 1rem 5rem 1rem 2rem;
+}
+.infoText {
+    text-align: left;
+    padding: 0 11px 9px;
+    margin: 0;
+    color: gray;
+    font: 400 13.3333px Arial;
+}

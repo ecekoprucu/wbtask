@@ -1,0 +1,48 @@
+.detailGuestContainer {
+    position: absolute;
+    bottom: -18rem;
+    width: 150%;
+    padding: 1em;
+    box-shadow: 0 0 19px 0 rgba(0,0,0,0.25);
+    border-radius: 1.5rem;
+}
+
+.adultWrapper, .childrenWrapper, .infantWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adultWrapper div:first-child, .childrenWrapper div:first-child, .infantWrapper div:first-child {
+    text-align: left;
+    margin-right: 2rem;
+}
+.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+.countWrapper:nth-child(2) {
+    display: flex;
+}
+
+.ageDetail {
+    font-size: small;
+    color: gray;
+}
+
+.headline {
+    font-weight: bold;
+}
+
+.countNumber {
+    margin: 0;
+    color: black;
+    font-size: medium;
+    width: 15px;
+}

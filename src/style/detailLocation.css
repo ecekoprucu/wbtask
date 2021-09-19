@@ -1,0 +1,11 @@
+.detailLocationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.locationName {
+    font-weight: bold;
+    color: #626262;
+    margin-left: 1rem;
+}
